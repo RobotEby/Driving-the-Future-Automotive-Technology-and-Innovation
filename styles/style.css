@@ -1,0 +1,154 @@
+body {
+    font-family: helvetica, sans-serif;
+    background-color: rgb(35, 33, 65);
+}
+
+ .header-one
+ 
+ h1 {
+    animation: slideIn 1s ease-in-out infinite alternate;
+    border: 2px solid #7e5218;
+    padding: 20px;
+    border-radius: 50px; 
+    text-align: center;  
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+    @keyframes slideIn {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(10px);
+        }
+    }
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    border: 2px solid #7e5218;
+    padding: 20px;
+    border-radius: 50px; 
+}
+
+.cars-links {
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+ }
+
+.drive-motors {
+    display: flex;
+    position: relative;
+}
+
+ .cars-links:hover {
+    font-weight: bold;
+}
+
+.container-links {
+    animation: slideIn 1s ease-in-out infinite alternate;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.container-links
+
+a {
+    border: 2px solid #7e5218;
+    border-radius: 50px; 
+    padding: 10px;
+    color: white;
+    font-size: x-large;
+    text-decoration: none;  
+    font-style: italic;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.links:hover {
+    font-weight: bold;
+}
+
+.links-secondary {
+    border: 2px solid #7e5218;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    font-size: x-large;
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.links-secondary
+
+p {
+    margin-left: 10px;
+}
+
+.links-secondary 
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.group:hover
+
+a {
+    font-weight: bold;
+}
+
+
+.information {
+   position: fixed;
+   flex-wrap: nowrap;
+   bottom: 0;
+   left: 0;
+   height: 200px;
+   width: 100%;
+   background-color: #7e5218;
+   padding: 20px;
+}
+
+.group-footer {
+    color: white;
+    font-size: large;
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+.group-footer
+
+p {
+    font-size: x-large;
+}
+
+.group-footer
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.social:hover {
+    font-weight: bold;
+}
